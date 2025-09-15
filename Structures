@@ -66,6 +66,49 @@ Searching- O(n)
 Inserting-O(1)
 Deleting-O(1)
 
+
+<!-- uses -->
+1. Job scheduling
+2. printers
+
+
+LinkedLists
+-----------
+
+sequential linear access data structure in which each element is an object called a Node and has two parts
+the data, and a reference to the next element
+
+<!-- -----Time complexity equations------ -->
+Accessing- O(n)
+Searching- O(n)
+Inserting-O(n)/ O(1)
+Deleting-O(n)/ O(1)
+
+<!-- uses -->
+1. Playlists
+2. photo albums
+
+
+
+Doubly LinkedLists
+------------------
+ similar to linked lists only that a node points both to the next and previous nodes
+
+
+<!-- -----Time complexity equations------ -->
+Accessing- O(n)
+Searching- O(n)
+Inserting-O(n)/ O(1)
+Deleting-O(n)/ O(1)
+
+
+<!-- uses of stacks -->
+------------
+1. undo/redo features
+2. moving back and forth in browser history
+3. Bactracking algorithms(eg, Maze and file directories)
+4. calling functions
+
 Arrays
 --------
 
