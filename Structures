@@ -1,0 +1,86 @@
+Data structure - named memory space that can be used to manage Data
+
+algorithm- A collection of steps to follow in order to solve a problem.
+
+
+Types of data Structures-
+------- Sequential Access Data structures----------
+->elements from these structures depend on the rest in operations. hence no O(1) accessing
+1. Stacks
+2. Queues
+3. Linked Lists
+
+-------- Random access Data structures -----------
+->elements from these structures do not depend on others in operations hence O(1) accessing is available
+
+1. Arrays
+2. ArrayLists
+
+Stacks
+------
+
+Last In First out data structure. 
+stores objects in a sort of a vertical tower
+
+Possible operations include
+
+pop()-->removes the top most element
+push() --> adds an element on top of the stack
+peek() --> checks the top most element
+Contains() ---> conducts searching on stack without removing any
+
+
+<!-- -----Time complexity equations------ -->
+Accessing- O(n)
+Searching- O(n)
+Inserting-O(1)
+Deleting-O(1)
+
+
+
+----------
+<!-- uses of stacks -->
+------------
+1. undo/redo features
+2. moving back and forth in browser history
+3. Bactracking algorithms(eg, Maze and file directories)
+4. calling functions
+
+
+Queues
+-------
+First In First Out data structure
+A collection designed for holding elements prior to processing
+It is a linear data structure
+
+<!-- methods -->
+enqueue()-  adding an element to the queue
+dequeue()- removing an element from a queue
+peek()- check first element in queue
+contains() - check if element is contained in queue
+
+
+<!-- -----Time complexity equations------ -->
+Accessing- O(n)
+Searching- O(n)
+Inserting-O(1)
+Deleting-O(1)
+
+Arrays
+--------
+
+<!-- methods -->
+1. shift
+2. unshift
+3. pop
+4. push
+
+Parallel arrays- arrays of the same length that have corresponding values in each position. used to store 
+related  of different types belonging to the same entity
+ArrayLists- data structure built on arrays that increases in size dynamically.it is part of a class hence has inbuilt methods to access and work with it
+
+<!-- -----Time complexity equations------ -->
+Accessing- O(1)
+Searching- O(n)
+Inserting-O(n)
+Deleting-O(n)

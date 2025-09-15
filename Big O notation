@@ -1,0 +1,20 @@
+Big O notation- description of how difference in size of inputs affects the performance of an algorithm
+
+Time Complexity Equation- measure of the execution time of an algorithm by taking the number of inputs 'n' and returning the number of operations that need to be completed before the process is over.
+
+we measure efficiency of algorithms based on these four metrics
+
+-Acessing
+-Searching 
+-Adding
+-Inserting 
+
+
+Rating of the different equations
+----------------------------------
+O(1)- Best, doesn't change with any increase in inputs
+o(log n)- second best, rate of change decreases with an increase in the number of inputs used
+O(n)- number of operations increase proportianally to the number of inputs
+O(n log n)- rate of change in increase increases as the number of inputs increases
+O(2^n) and O(n^2)-very ineefiicient and exponential in nature
+
